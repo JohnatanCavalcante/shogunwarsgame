@@ -5,6 +5,7 @@ namespace AppBundle\Form;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 
 class PersonagemType extends AbstractType
 {
@@ -13,7 +14,13 @@ class PersonagemType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('name')->add('level')->add('hpmax')->add('hpcurrent')->add('strength')->add('defence')->add('resistence');
+        $builder->add('name')
+        ->add('level', IntegerType::class,['disabled' => 'true'])
+        ->add('hpmax', IntegerType::class,['disabled' => 'true'])
+        ->add('hpcurrent', IntegerType::class,['disabled' => 'true'])
+        ->add('strength', IntegerType::class,['disabled' => 'true'])
+        ->add('defence', IntegerType::class,['disabled' => 'true'])
+        ->add('resistence', IntegerType::class,['disabled' => 'true']);
     }
     
     /**

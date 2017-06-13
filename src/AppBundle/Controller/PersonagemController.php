@@ -41,8 +41,11 @@ class PersonagemController extends Controller
     {
         $personagem = new Personagem();
         $personagem->setLevel(1);
+        $personagem->setHpmax(100);
+        $personagem->setHpcurrent(100);
+        $personagem->setStrength(5);
         $personagem->setDefence(5);
-        $personagem->setHpmax(5);
+        $personagem->setResistence(5);
         $form = $this->createForm('AppBundle\Form\PersonagemType', $personagem);
         $form->handleRequest($request);
 
