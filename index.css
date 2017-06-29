@@ -1,0 +1,23 @@
+/*GENERAL*/
+*{margin: 0;}
+@font-face {font-family: Korolev;
+            src: url(font/Korolev%20Light.otf)}
+body {background:url("images/fundo.jpg");}
+
+/*BOX LOGIN*/
+#box {width: 500px; height: 360px; background:#FEFEFC; padding: 15px 15px 15px 15px; font-family: Korolev; font-size: 14px; border-right:2px solid #CCC; border-bottom:2px solid #CCC; margin: 95px auto;}
+#tableLogin {margin: 55px; font-family: Korolev;}
+#input {padding: 10px; margin: 5px; border-radius: 4px; border: 1px solid #EEE9E9; outline: 0; color: #EEE9E9;}
+#input:focus {outline: #000 auto thin; color: #444;}
+#button {background: #FFF; color: #FFF; padding: 15px; border-radius: 4px; border: 1px solid #EEE9E9; background: #EEE9E9; font-weight: bold;}
+#button:hover {color: #444; outline: #000 auto thin;}
+#button:active {outline: #000 auto thin;}
+button {background: #FFF; color: #FFF; padding: 15px; border-radius: 4px; border: 1px solid #EEE9E9; background: #EEE9E9; font-weight: bold;}
+button:hover {color: #444; outline: #000 auto thin;}
+button:active {outline: #000 auto thin;}
+#tableLogin td {width: 400px;}
+
+/*AVISOS*/
+#error {background: #ff9999; width: 460px; margin: 0 auto; padding: 15px; border: 1px solid #ff0000; border-radius: 5px; margin: 2px;}
+#ok {background: #ccffcc; width: 460px; margin: 0 auto; padding: 15px; border: 1px solid #66ff33; border-radius: 5px; margin: 2px;}
+#warn {background: #ffff99; width: 460px; margin: 0 auto; padding: 15px; border: 1px solid #cccc00; border-radius: 5px; margin: 2px;}

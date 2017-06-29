@@ -1,0 +1,61 @@
+/*GENERAL*/
+*{margin: 0;}
+@font-face {font-family: Korolev;
+            src: url(font/Korolev%20Light.otf)}
+body {background:url("images/fundo.jpg");}
+
+/*MENU*/
+#menu {width: 100%; height: 50px; background:#0085B2;}
+#content_menu {width: 1200px; margin: 0 auto;}
+#logo {font: 28px Korolev; float: left; padding: 7px; color: #FFF;}
+#menu_links a{font-family: Korolev; font-size: 17px; text-decoration: none; color: #FFF; margin: 15px 15px 0 15px; float: left; opacity: 0.5;}
+#menu_links a:hover {opacity: 1;}
+
+/*CONTEUDO*/
+#conteudo {width: 800px; margin: 0 auto; background:#FEFEFC; padding: 15px 15px 15px 15px; font-family: Korolev; font-size: 14px; border-right:2px solid #CCC; border-bottom:2px solid #CCC;}
+
+/*TABELA USUARIOS*/
+#tabela {width: 600px; margin: 0 auto;}
+#tabela td {text-align: center; background: #F5F5F5; border-bottom: 2px solid #D3D3D3; border-right: 2px solid #D3D3D3;}
+#tabela a {color: #000;}
+
+/*TRATAMENTO DE INPUTS*/
+#input {padding: 10px; margin: 5px; border-radius: 4px; border: 1px solid #EEE9E9; outline: 0; color: #EEE9E9;}
+#input:focus {outline: #000 auto thin; color: #444;}
+#button {background: #FFF; color: #FFF; padding: 15px; border-radius: 4px; border: 1px solid #EEE9E9; background: #EEE9E9; font-weight: bold;}
+#button:hover {color: #444; outline: #000 auto thin;}
+#button:active {outline: #000 auto thin;}
+
+/*AVISOS*/
+#error {background: #ff9999; margin: 0 auto; padding: 15px; border: 1px solid #ff0000; border-radius: 5px; margin: 2px;}
+#ok {background: #ccffcc;  margin: 0 auto; padding: 15px; border: 1px solid #66ff33; border-radius: 5px; margin: 2px;}
+#warn {background: #ffff99; margin: 0 auto; padding: 15px; border: 1px solid #cccc00; border-radius: 5px; margin: 2px;}
+
+
+/*CARD*/
+#combate {
+	width: 600px;
+	margin: 0 auto;
+}
+#card-l {
+	float: left;
+	margin: 10px; 
+	padding: 45px;
+	border-radius: 5px;
+}
+#card-r {
+	float: right;
+	margin: 10px; 
+	padding: 45px;
+	border-radius: 5px;
+}
+
+.vs{
+	margin-top: 83px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
